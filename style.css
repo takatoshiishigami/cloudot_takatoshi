@@ -1,0 +1,122 @@
+/* 
+ Theme Name: cloudot
+ Theme URI: http://example.com/twenty-fourteen-child/ 
+ Description: twenty twelve Child Theme 
+ Author: John Doe 
+ Author URI: http://example.com 
+ Template: twentytwelve 
+ Version: 1.0.0 
+ Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready 
+ Text Domain: cloudot
+*/ 
+
+@import url("../twentytwelve/style.css"); 
+
+/* =Theme customization starts here 
+-------------------------------------------------------------- */
+
+body{
+	background-color:#fff;
+}
+body .site{
+	margin-top:0;
+	padding:0;
+}
+
+.site {
+	max-width:100%;
+	text-align:left;
+}
+
+hgroup{
+	float:left;
+	margin:0px 40px 0px  20px;
+}
+#site-navigation{
+	float:left;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul{
+	border:none;
+}
+
+.site-header{
+	overflow:hidden;
+	background-color:#333333;
+	border-bottom:solid 4px #
+}
+.site-header{
+	padding:0;
+}
+.site-description{
+	display:none;
+}current_page_item
+
+#site-description{
+	display:none;
+}
+
+.main-navigation{
+	margin-top:15px;
+}
+
+.site-header h1 a, .site-header h2 a{
+	color:#fff;
+}
+.main-navigation{
+	margin-top:0;
+}
+
+.current_page_item{
+	line-height: 1.846153846;
+	padding-top:3px;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a{
+	color:#fff;
+}
+.main-navigation li a{
+	color:#fff;
+}
+
+.wrapper{
+	max-width:1260px;
+	margin:0 auto;
+}
+
+.entry-header .entry-title{
+	font-size:36px;
+}
+.site-content{
+	margin-top:3.714285714rem ;
+}
+.entry-header .entry-title a{
+	color:#888;
+}
+
+#content{
+	padding-left:0.3%;
+}
+
+.menu-toggle, input[type="submit"], input[type="button"], input[type="reset"], article.post-password-required input[type=submit], .bypostauthor cite span {
+padding: 6px 10px;
+padding: 0.428571429rem 0.714285714rem;
+font-size: 11px;
+font-size: 0.785714286rem;
+line-height: 1.428571429;
+font-weight: normal;
+color: #fff;
+background-color: #ff6440;
+background-image:none !important;
+box-shadow: none;
+border-radius:0 !important;
+border:none !important;
+
+}
+.site-content {
+	width: 78%;
+}
+	.widget-area {
+float: right;
+width: 18%;
+	}
+

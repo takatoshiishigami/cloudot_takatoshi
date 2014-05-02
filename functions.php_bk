@@ -1,0 +1,21 @@
+<?php 
+
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'books', /* post-type */
+		array(
+			'labels' => array(
+			'name' => __( '本' ),
+			'singular_name' => __( '本' )
+		),
+		'public' => true,
+		'menu_position' =>5,
+    'has_archive' => true,
+    'rewrite' => array('slug' => 'books')
+	
+	
+    )
+	);
+}
+
+?>
